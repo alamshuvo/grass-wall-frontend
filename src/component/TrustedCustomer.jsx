@@ -22,7 +22,8 @@ const trustItems = [
     subtitle: "Across India",
   },
 ];
-
+// Removed invalid animation object. Ensure animations are defined in your CSS or Tailwind configuration.
+  
 const TrustedCustomer = () => {
   return (
     <div className="h-[332px] max-w-[1280px] mx-auto bg-[#002B55] font-poopins rounded-[24px]">
@@ -36,7 +37,7 @@ const TrustedCustomer = () => {
         {trustItems.map((item) => (
           <div key={item.id} className="flex items-center gap-[20px]">
             <div className="bg-[#FFFFFF] w-[80px] h-[80px] rounded-full flex justify-center items-center">
-              <div className="border-dashed border-2 p-[5px] rounded-full">
+              <div className="border-dashed animate-spinSlow border-2 ">
                 <img src={item.image} alt={item.title} className="w-[42px] h-[42px]" />
               </div>
             </div>
