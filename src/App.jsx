@@ -1,3 +1,4 @@
+import GrassSlider from "./component/GrassSlider"
 import NavBar from "./component/NavBar"
 
 
@@ -8,6 +9,7 @@ function App() {
      <div className="font-poopins">
       <div>
         <NavBar/>
+        <GrassSlider/>
       </div>
      </div>
     </>

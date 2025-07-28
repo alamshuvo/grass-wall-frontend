@@ -4,8 +4,8 @@ import search from "../assets/search.svg";
 import bag from "../assets/bag.svg";
 const NavBar = () => {
   return (
-    <nav className="max-w-[1280px]  mx-auto pt-[10px]">
-      <div className="flex justify-between items-center relative">
+    <nav className="max-w-[1280px] mx-auto my-[10px]">
+      <div className="flex justify-between  h-[98px]   items-center  relative">
         <div>
           <ul className="flex justify-between items-center gap-[50px] text-[#1A171A] font-[400] text-[18px] cursor-pointer">
             {["Home", "Shop", "Blogs", "Contact"].map((item, index) => (
@@ -19,7 +19,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className="border-dashed border-2 flex justify-center items-center p-[10px] ">
+        <div className="border-dashed border-2 flex justify-center items-center p-[10px] left-[45%] top-[10%] absolute z-[1000]">
             <img src={tasklogo} alt="logo" />
         </div>
         <div className="flex justify-between items-center gap-[55px]">

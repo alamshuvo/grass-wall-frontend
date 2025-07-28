@@ -5,16 +5,16 @@ module.exports = {
     extend: {
       fontFamily: {
         poopins: ['Poppins', 'sans-serif'],
+        dm: ['"DM Sans"', 'sans-serif'],
       },
       keyframes: {
-        glow: {
-          '0%': { boxShadow: '0 0 10px rgba(255, 193, 7, 0.4)' },
-          '50%': { boxShadow: '0 0 20px rgba(168, 148, 233, 0.8)' },
-          '100%': { boxShadow: '0 0 10px rgba(255, 193, 7, 0.4)' },
+        glowPulse: {
+          '0%, 100%': { boxShadow: '0 0 5px #B0DD1D, 0 0 10px #B0DD1D' },
+          '50%': { boxShadow: '0 0 15px #B0DD1D, 0 0 25px #B0DD1D' },
         },
       },
       animation: {
-        glow: 'glow 2s ease-in-out infinite',
+        glow: "glowPulse 2s infinite ease-in-out",
       },
     },
   },
