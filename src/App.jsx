@@ -1,5 +1,7 @@
 import AgriculturalProducts from "./component/AgriculturalProducts";
 import GrassSlider from "./component/GrassSlider";
+import LandScapeProducts from "./component/LandscapeProduct";
+
 import NavBar from "./component/NavBar";
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
         </div>
         <div className="mt-[100px]">
           <AgriculturalProducts />
+        </div>
+        <div className="mt-[110px]">
+          <LandScapeProducts/>
         </div>
       </div>
     </>
