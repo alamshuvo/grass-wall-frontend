@@ -5,6 +5,7 @@ import LandScapeProducts from "./component/LandscapeProduct";
 import NavBar from "./component/NavBar";
 import InfiniteBanner from "./component/ShippingSlide";
 import TrustedCustomer from "./component/TrustedCustomer";
+import TestimonialSlider from "./component/WhyCustomerLove";
 import WhyUs from "./component/WhyUs";
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
         </div>
         <div className="mt-[70px] mb-[65px]">
           <InfiniteBanner/>
+        </div>
+        <div className="mt-[64px]">
+          <TestimonialSlider></TestimonialSlider>
         </div>
       </div>
     </>
