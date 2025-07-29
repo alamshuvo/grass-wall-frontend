@@ -16,7 +16,9 @@ module.exports = {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.1)' },
         },
+        
       },
+      
       animation: {
         glow: "glowPulse 2s infinite ease-in-out",
         spinSlow: 'dashedBounce 1.2s ease-in-out infinite',

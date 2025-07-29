@@ -4,6 +4,7 @@ import LandScapeProducts from "./component/LandscapeProduct";
 
 import NavBar from "./component/NavBar";
 import TrustedCustomer from "./component/TrustedCustomer";
+import WhyUs from "./component/WhyUs";
 
 function App() {
   return (
@@ -19,10 +20,17 @@ function App() {
         <div className="mt-[110px]">
           <LandScapeProducts/>
         </div>
-        <div className="my-[100px] relative">
-          <TrustedCustomer/>
-          <div className="absolute inset-0 bg-[rgba(27,127,225,0.4)] blur-[200px] z-0 w-[497px] h-[497px] bottom-0 left-[40%]"></div>
+        <div className="my-[100px]">
+  <div className="relative overflow-hidden rounded-[24px]"> {/* Add rounded if TrustedCustomer has rounded shape */}
+    <TrustedCustomer />
+    
+    {/* Blurred glowing background layer */}
+    <div className="absolute w-[497px] h-[497px] top-[40%] left-[40%] bg-[rgba(27,127,225,0.4)] blur-[100px] pointer-events-none z-0"></div>
+  </div>
+</div>
 
+        <div>
+          <WhyUs/>
         </div>
       </div>
     </>
