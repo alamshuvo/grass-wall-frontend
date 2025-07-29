@@ -107,7 +107,7 @@ const ContactPage = () => {
             <textarea
               placeholder="Write message"
               rows="4"
-              className="bg-[#1C2B47]/60 pl-[30px] py-[20px] h-[134px] text-white text-[20px] font-[400] placeholder-white p-[15px] rounded-[24px] outline-none resize-none"
+              className="bg-[#1C2B47]/60 pl-[30px] py-[20px] h-[134px] text-white text-[20px] font-[400] placeholder-white p-[15px] rounded-[24px] outline-none resize-none mb-[30px]"
             ></textarea>
 
             <Button text={"Submit"} />
