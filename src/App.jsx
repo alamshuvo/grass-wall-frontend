@@ -3,7 +3,6 @@ import ContactPage from "./component/ContactPage";
 import Footer from "./component/Footer";
 import GrassSlider from "./component/GrassSlider";
 import LandScapeProducts from "./component/LandscapeProduct";
-
 import NavBar from "./component/NavBar";
 import InfiniteBanner from "./component/ShippingSlide";
 import TrustedCustomer from "./component/TrustedCustomer";
