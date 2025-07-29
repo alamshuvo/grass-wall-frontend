@@ -16,12 +16,16 @@ module.exports = {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.1)' },
         },
-        
+        scrollLeft: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       
       animation: {
         glow: "glowPulse 2s infinite ease-in-out",
         spinSlow: 'dashedBounce 1.2s ease-in-out infinite',
+        "infinite-scroll": "scrollLeft 20s linear infinite"
       },
     },
   },
