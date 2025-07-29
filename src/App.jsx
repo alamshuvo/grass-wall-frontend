@@ -1,4 +1,5 @@
 import AgriculturalProducts from "./component/AgriculturalProducts";
+import ContactPage from "./component/ContactPage";
 import GrassSlider from "./component/GrassSlider";
 import LandScapeProducts from "./component/LandscapeProduct";
 
@@ -38,8 +39,11 @@ function App() {
         <div className="mt-[70px] mb-[65px]">
           <InfiniteBanner/>
         </div>
-        <div className="mt-[64px]">
+        <div className="mt-[64px] mb-[100px]">
           <TestimonialSlider></TestimonialSlider>
+        </div>
+        <div>
+          <ContactPage/>
         </div>
       </div>
     </>
