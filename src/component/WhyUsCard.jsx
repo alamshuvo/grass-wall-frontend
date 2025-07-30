@@ -35,12 +35,12 @@ const cardData = [
 
 const WhyUsCard = () => {
   return (
-    <div className="max-w-[1280px] mx-auto relative font-poopins flex justify-between items-center gap-[40px]">
+    <div className="max-w-[1280px] mx-auto relative font-poopins flex flex-col md:flex-row justify-between items-center gap-[40px] ">
       {cardData.map((card, index) => (
         <div
           key={index}
-          className={`w-[400px] relative flex flex-col px-[40px] pt-[30px] pb-[40px] z-50 rounded-[24px] overflow-hidden h-[501px] ${card.bgColor} ${
-            card.gapBottom ? "mb-[110px]" : ""
+          className={`md:w-[400px] relative flex flex-col md:px-[40px] px-[10px] pt-[30px] pb-[40px] z-50 rounded-[24px] overflow-hidden h-full md:h-[501px] ${card.bgColor} ${
+            card.gapBottom ? "md:mb-[110px]" : ""
           }`}
         >
           {/* Blue glow layer inside card */}

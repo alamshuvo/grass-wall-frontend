@@ -58,8 +58,8 @@ const LandScapeProducts = () => {
       },
     ];
     return (
-        <div className='max-w-[1280px] mx-auto'>
-            <p className='font-poopins font-[500] text-[42px] mb-[40px]'>Landscape Products</p>
+      <div className="max-w-[1280px] w-full mx-auto px-4 md:px-6 lg:px-0">
+      <p className="font-poopins font-[500] text-[28px] md:text-[36px] lg:text-[42px] mb-[24px] md:mb-[32px] lg:mb-[40px]">Landscape Products</p>
             <ProductSlider products={products}/>
         </div>
     );
