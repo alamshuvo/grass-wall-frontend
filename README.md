@@ -31,12 +31,12 @@ npm install
 3. Run the development server:
 ```bash 
 npm run dev
+```
 
-
- 4. Project Structure
+4. Project Structure
  src/
 ├── assets/            
 ├── components/       
 ├── Shared/           
-├── App.jsx            # Main App component
-└── main.jsx           # Entry point
+├── App.jsx           
+└── main.jsx           
